@@ -1,0 +1,66 @@
+body{
+    font-family: NSimSun;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 3em;
+}
+
+input[type="button"],input[type="submit"]  {
+    background-color: #ffa;
+    border: #1b1 dotted 2px;
+    width: 100px;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
+    cursor: pointer;
+}
+
+a {
+    color: #f00ff0;
+    font-size: large;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #87bff2;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 90%;
+    border-width:1px;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.8);
+    background-color:rgba(85, 12, 171, 0.6);
+}
+
+section{
+    font-family: "Times New Roman", KaiTi;
+    text-align: center;
+    border: 1px dotted antiquewhite;
+    padding-top: 1px;
+    line-height: 2rem;
+    margin-top: 15px;
+    background-color: #eca;
+}
+
+textarea{
+    font-family: inherit;
+    min-width: 700px;
+    min-height: 115px;
+}
+
+nav{
+    margin: 15px;
+}
